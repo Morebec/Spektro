@@ -1,12 +1,15 @@
 {
-  "name": "spectre.css",
+  "name": "spektro",
   "version": "0.5.8",
-  "description": "Spectre.css: A lightweight, responsive and modern CSS framework",
-  "homepage": "http://picturepan2.github.io/spectre",
-  "repository": "picturepan2/spectre",
+  "description": "Spektro: A lightweight, responsive and modern CSS framework",
+  "homepage": "http://morebec.github.io/spektro",
+  "repository": "morebec/spektro",
   "license": "MIT",
-  "author": "Yan Zhu <picturepan2@hotmail.com>",
-  "main": "dist/spectre.css",
+  "author": [
+    "Yan Zhu <picturepan2@hotmail.com>",
+    "Morebec <info@morebec.com>"
+  ],
+  "main": "dist/spektro.css",
   "keywords": [
     "css",
     "framework",
