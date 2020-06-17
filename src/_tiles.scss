@@ -11,10 +11,10 @@
   .tile-content {
     flex: 1 1 auto;
     &:not(:first-child) {
-      padding-left: $unit-2;
+      padding-left: $spectre-unit-2;
     }
     &:not(:last-child) {
-      padding-right: $unit-2;
+      padding-right: $spectre-unit-2;
     }
   }
   .tile-title,

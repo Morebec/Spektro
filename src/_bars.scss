@@ -4,11 +4,11 @@
   border-radius: $border-radius;
   display: flex;
   flex-wrap: nowrap;
-  height: $unit-4;
+  height: $spectre-unit-4;
   width: 100%;
 
   &.bar-sm {
-    height: $unit-1;
+    height: $unit-q;
   }
 
   // TODO: attr() support
@@ -18,7 +18,7 @@
     display: block;
     font-size: $font-size-sm;
     flex-shrink: 0;
-    line-height: $unit-4;
+    line-height: $spectre-unit-4;
     height: 100%;
     position: relative;
     text-align: center;
@@ -56,13 +56,13 @@
     background: $primary-color;
     border: 0;
     border-radius: 50%;
-    height: $unit-3;
+    height: $spectre-unit-3;
     padding: 0;
     position: absolute;
     right: 0;
     top: 50%;
     transform: translate(50%, -50%);
-    width: $unit-3;
+    width: $spectre-unit-3;
 
     &:active {
       box-shadow: 0 0 0 .1rem $primary-color;

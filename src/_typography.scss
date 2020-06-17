@@ -71,16 +71,16 @@ kbd {
 
 mark {
   @include label-variant($body-font-color, $highlight-color);
-  border-bottom: $unit-o solid darken($highlight-color, 15%);
+  border-bottom: $spectre-unit-o solid darken($highlight-color, 15%);
   border-radius: $border-radius;
-  padding: $unit-o $unit-h 0;
+  padding: $spectre-unit-o $spectre-unit-h 0;
 }
 
 // Blockquote
 blockquote {
   border-left: $border-width-lg solid $border-color;
   margin-left: 0;
-  padding: $unit-2 $unit-4;
+  padding: $spectre-unit-2 $spectre-unit-4;
 
   p:last-child {
     margin-bottom: 0;
@@ -90,16 +90,16 @@ blockquote {
 // Lists
 ul,
 ol {
-  margin: $unit-4 0 $unit-4 $unit-4;
+  margin: $spectre-unit-4 0 $spectre-unit-4 $spectre-unit-4;
   padding: 0;
 
   ul,
   ol {
-    margin: $unit-4 0 $unit-4 $unit-4;
+    margin: $spectre-unit-4 0 $spectre-unit-4 $spectre-unit-4;
   }
 
   li {
-    margin-top: $unit-2;
+    margin-top: $spectre-unit-2;
   }
 }
 
@@ -124,6 +124,6 @@ dl {
     font-weight: bold;
   }
   dd {
-    margin: $unit-2 0 $unit-4 0;
+    margin: $spectre-unit-2 0 $spectre-unit-4 0;
   }
 }

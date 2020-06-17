@@ -5,12 +5,12 @@
   border-radius: 5rem;
   display: inline-flex;
   font-size: 90%;
-  height: $unit-6;
-  line-height: $unit-4;
-  margin: $unit-h;
+  height: $spectre-unit-6;
+  line-height: $spectre-unit-4;
+  margin: $spectre-unit-h;
   max-width: $control-width-sm;
   overflow: hidden;
-  padding: $unit-1 $unit-2;
+  padding: $unit-q $spectre-unit-2;
   text-decoration: none;
   text-overflow: ellipsis;
   vertical-align: middle;
@@ -22,8 +22,8 @@
   }
 
   .avatar {
-    margin-left: -$unit-2;
-    margin-right: $unit-1;
+    margin-left: -$spectre-unit-2;
+    margin-right: $unit-q;
   }
 
   .btn-clear {

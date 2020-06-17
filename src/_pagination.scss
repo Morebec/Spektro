@@ -2,21 +2,21 @@
 .pagination {
   display: flex;
   list-style: none;
-  margin: $unit-1 0;
-  padding: $unit-1 0;
+  margin: $spectre-unit-1 0;
+  padding: $spectre-unit-1 0;
 
   .page-item {
-    margin: $unit-1 $unit-o;
+    margin: $spectre-unit-1 $spectre-unit-o;
 
     span {
       display: inline-block;
-      padding: $unit-1 $unit-1;
+      padding: $spectre-unit-1 $spectre-unit-1;
     }
 
     a {
       border-radius: $border-radius;
       display: inline-block;
-      padding: $unit-1 $unit-2;
+      padding: $spectre-unit-1 $spectre-unit-2;
       text-decoration: none;
       &:focus,
       &:hover {

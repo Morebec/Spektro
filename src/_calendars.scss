@@ -42,7 +42,7 @@
 
   .calendar-date {
     border: 0;
-    padding: $unit-1;
+    padding: $unit-q;
 
     .date-item {
       appearance: none;
@@ -52,17 +52,17 @@
       color: $gray-color-dark;
       cursor: pointer;
       font-size: $font-size-sm;
-      height: $unit-7;
-      line-height: $unit-5;
+      height: $spectre-unit-7;
+      line-height: $spectre-unit-5;
       outline: none;
-      padding: $unit-h;
+      padding: $spectre-unit-h;
       position: relative;
       text-align: center;
       text-decoration: none;
       transition: background .2s, border .2s, box-shadow .2s, color .2s;
       vertical-align: middle;
       white-space: nowrap;
-      width: $unit-7;
+      width: $spectre-unit-7;
 
       &.date-today {
         border-color: $secondary-color-dark;
@@ -123,7 +123,7 @@
     &::before {
       background: $secondary-color;
       content: "";
-      height: $unit-7;
+      height: $spectre-unit-7;
       left: 0;
       position: absolute;
       right: 0;
@@ -179,7 +179,7 @@
 
     .date-item {
       align-self: flex-end;
-      height: $unit-7;
+      height: $spectre-unit-7;
       margin-right: $layout-spacing-sm;
       margin-top: $layout-spacing-sm;
     }
@@ -212,7 +212,7 @@
       border-radius: $border-radius;
       font-size: $font-size-sm;
       display: block;
-      margin: $unit-h auto;
+      margin: $spectre-unit-h auto;
       overflow: hidden;
       padding: 3px 4px;
       text-overflow: ellipsis;

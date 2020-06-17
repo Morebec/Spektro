@@ -2,7 +2,7 @@
 .timeline {
   .timeline-item {
     display: flex;
-    margin-bottom: $unit-6;
+    margin-bottom: $spectre-unit-6;
     position: relative;
     &::before {
       background: $border-color;
@@ -10,7 +10,7 @@
       height: 100%;
       left: 11px;
       position: absolute;
-      top: $unit-6;
+      top: $spectre-unit-6;
       width: 2px;
     }
 
@@ -28,20 +28,20 @@
       border-radius: 50%;
       color: $light-color;
       display: flex;
-      height: $unit-6;
+      height: $spectre-unit-6;
       justify-content: center;
       text-align: center;
-      width: $unit-6;
+      width: $spectre-unit-6;
       &::before {
         border: $border-width-lg solid $primary-color;
         border-radius: 50%;
         content: "";
         display: block;
-        height: $unit-2;
-        left: $unit-2;
+        height: $spectre-unit-2;
+        left: $spectre-unit-2;
         position: absolute;
-        top: $unit-2;
-        width: $unit-2;
+        top: $spectre-unit-2;
+        width: $spectre-unit-2;
       }
 
       &.icon-lg {

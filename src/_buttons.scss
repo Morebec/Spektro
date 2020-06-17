@@ -119,14 +119,14 @@
     background: transparent;
     border: 0;
     color: currentColor;
-    height: $unit-5;
-    line-height: $unit-4;
-    margin-left: $unit-1;
+    height: $spectre-unit-5;
+    line-height: $spectre-unit-4;
+    margin-left: $unit-q;
     margin-right: -2px;
     opacity: 1;
-    padding: $unit-h;
+    padding: $spectre-unit-h;
     text-decoration: none;
-    width: $unit-5;
+    width: $spectre-unit-5;
 
     &:focus,
     &:hover {
