@@ -1,8 +1,8 @@
-#### Spectre.css Changelog
+#### Spektro Changelog
 
 ##### v0.5.8 [#](https://github.com/picturepan2/spectre/releases/tag/v0.5.8)
 
-- IMPORTANT: Moving 
+- IMPORTANT: Moving
 - Add Auto width column #541
 - Add more Menu badge support #545
 - Improve 360-Degree Viewer
@@ -100,7 +100,7 @@ IMPORTANT: Move Autocomplete to the Experimentals
 
 - Add new Sliders example #328
 - Add Table with horizontal scroll support #333
-- Update Calendar event style which makes use of color utilities #326 
+- Update Calendar event style which makes use of color utilities #326
 - Define $parallax-fade-color as default variable #332
 - Fix the Docs content mistake
 - Fix breadcrumb-item extra spacing #337
@@ -137,7 +137,7 @@ IMPORTANT: Move Autocomplete to the Experimentals
 
 ##### v0.4.1 [#](https://github.com/picturepan2/spectre/releases/tag/v0.4.1)
 
-- Add default modifier to all variables 
+- Add default modifier to all variables
 - Add `address` reset which changes font-style to normal
 - Add Details and Summary Accordions support
 - Fix responsive video
@@ -170,15 +170,15 @@ IMPORTANT: Move Autocomplete to the Experimentals
 
 ##### v0.2.15 [#](https://github.com/picturepan2/spectre/releases/tag/v0.2.15)
 
-- BIG Update to the Docs experience, completely rewritten and improved #240 
-- Add Text and Background colors utilities #205 #219 
-- Add Install from CDN option #191 
+- BIG Update to the Docs experience, completely rewritten and improved #240
+- Add Text and Background colors utilities #205 #219
+- Add Install from CDN option #191
 - Add unit size (4px) and unit size variables
 - Add Responsive container (max width container) #222
-- Add error and success states to checkbox, radio and switch #246 
-- Fix Rem unit issue in East Asian Chrome #110 
+- Add error and success states to checkbox, radio and switch #246
+- Fix Rem unit issue in East Asian Chrome #110
 - Fix icon direction bug #218
-- Fix Dropdown menu max items/height #226 
+- Fix Dropdown menu max items/height #226
 
 ##### v0.2.14 [#](https://github.com/picturepan2/spectre/releases/tag/v0.2.14)
 
@@ -213,7 +213,7 @@ IMPORTANT: Move Autocomplete to the Experimentals
 ##### v0.2.11 [#](https://github.com/picturepan2/spectre/releases/tag/v0.2.11)
 
 - Add pure CSS Popovers
-- Add pure CSS Icons 
+- Add pure CSS Icons
 - Add Slider bars
 - Add tvOS Parallax effect text layer
 - Update shadow mixin

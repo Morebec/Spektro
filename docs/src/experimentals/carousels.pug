@@ -3,8 +3,8 @@ extends ../_layout/_docs-layout.pug
 block variables
   - var slug = 'carousels'
   - var parent = 'experimentals'
-  - var title = 'Carousels - Experimentals - Spectre.css CSS Framework'
-  - var description = 'Spectre.css CSS Framework is a lightweight, responsive and modern CSS framework for faster and extensible development. Spectre provides basic styles for typography and elements, flexbox based responsive layout system, pure CSS components and utilities with best practice coding and consistent design language.'
+  - var title = 'Carousels - Experimentals - Spektro CSS Framework'
+  - var description = 'Spektro CSS Framework is a lightweight, responsive and modern CSS framework for faster and extensible development. Spectre provides basic styles for typography and elements, flexbox based responsive layout system, pure CSS components and utilities with best practice coding and consistent design language.'
 
 block docs-content
   +docs-heading('carousels', 'Carousels')
@@ -52,7 +52,7 @@ block docs-content
             label.nav-item.text-hide.c-hand(for="slide-2") 2
             label.nav-item.text-hide.c-hand(for="slide-3") 3
             label.nav-item.text-hide.c-hand(for="slide-4") 4
-    
+
     p
       | The default image number of Carousels is #[code 8]. You can add more images by changing the variable #[code $carousel-number] in #[code _carousels.scss] and re-compiling the CSS.
 
@@ -65,7 +65,7 @@ block docs-content
             <input class="carousel-locator" id="slide-2" type="radio" name="carousel-radio" hidden="">
             <input class="carousel-locator" id="slide-3" type="radio" name="carousel-radio" hidden="">
             <input class="carousel-locator" id="slide-4" type="radio" name="carousel-radio" hidden="">
-            
+
             <!-- carousel container -->
             <div class="carousel-container">
               <!-- carousel item -->
@@ -98,7 +98,7 @@ block docs-content
               <label class="nav-item text-hide c-hand" for="slide-4">4</label>
             </div>
           </div>
-      
+
     include ../_layout/_ad-c.pug
 
   include ../_layout/_footer.pug

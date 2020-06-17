@@ -9,19 +9,19 @@ block content
       .btns.d-flex
         input.docs-search.form-input(type="text" placeholder="Search Docs")
         a.btn.ml-1(href='https://www.paypal.me/picturepan2' target='_blank') PayPal
-        a.btn.btn-primary.ml-1(href='https://github.com/picturepan2/spectre' target='_blank') GitHub
+        a.btn.btn-primary.ml-1(href='https://github.com/picturepan2/spektro' target='_blank') GitHub
 
     #sidebar.docs-sidebar.off-canvas-sidebar
       .docs-brand
         if slug != parent
           a.docs-logo(href='../index.html')
-            img(src='../img/spectre-logo.svg' alt='Spectre.css CSS Framework')
-            h2 SPECTRE
+            img(src='../img/spektro-logo.svg' alt='Spektro CSS Framework')
+            h2 SPEKTRO
             small.label.label-secondary.text-bold DOCS
         else
           a.docs-logo(href='index.html')
-            img(src='img/spectre-logo.svg' alt='Spectre.css CSS Framework')
-            h2 SPECTRE
+            img(src='img/spektro-logo.svg' alt='Spektro CSS Framework')
+            h2 SPEKTRO
             small.label.label-secondary.text-bold DOCS
       .docs-nav
         .accordion-container
@@ -104,7 +104,7 @@ block content
             {url: 'sliders', name: 'Sliders'},
             {url: 'timelines', name: 'Timelines'}
           )
-  
+
     a.off-canvas-overlay(href='#close')
     .off-canvas-content
       #content.docs-content
@@ -112,9 +112,9 @@ block content
 
   script(type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js")
   script.
-    docsearch({ 
-    apiKey: 'bede06373c5a1fa3c1bbe8401e24c653', 
-    indexName: 'picturepan2_spectre', 
-    inputSelector: '.docs-search', 
+    docsearch({
+    apiKey: 'bede06373c5a1fa3c1bbe8401e24c653',
+    indexName: 'picturepan2_spektro',
+    inputSelector: '.docs-search',
     debug: true
-    }); 
+    });
