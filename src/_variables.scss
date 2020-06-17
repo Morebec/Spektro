@@ -13,25 +13,25 @@ $primary-color-800: saturate(darken($primary-color, 15%), 10%) !default;
 $primary-color-700: darken($primary-color, 10%) !default;
 $primary-color-600: darken($primary-color, 5%) !default;
 $primary-color-500: $primary-color !default;
-$primary-color-400: lighten($primary-color, 10%);
-$primary-color-300: lighten($primary-color, 20%);
-$primary-color-200: lighten($primary-color, 30%);
+$primary-color-400: lighten($primary-color, 10%) !default;
+$primary-color-300: lighten($primary-color, 20%) !default;
+$primary-color-200: lighten($primary-color, 30%) !default;
 $primary-color-100: lighten($primary-color, 40%) !default;
 
 $primary-color-dark: $primary-color-900 !default;
 $primary-color-light: $primary-color-100 !default;
 
 //Secondary color
-$secondary-color: #FB8C00;
+$secondary-color: #FB8C00 !default;
 
 $secondary-color-900: saturate(darken($secondary-color, 20%), 50%) !default;
 $secondary-color-800: darken($secondary-color, 15%) !default;
 $secondary-color-700: darken($secondary-color, 10%) !default;
 $secondary-color-600: darken($secondary-color, 5%) !default;
 $secondary-color-500: $secondary-color !default;
-$secondary-color-400: lighten($secondary-color, 10%);
-$secondary-color-300: lighten($secondary-color, 20%);
-$secondary-color-200: lighten($secondary-color, 30%);
+$secondary-color-400: lighten($secondary-color, 10%) !default;
+$secondary-color-300: lighten($secondary-color, 20%) !default;
+$secondary-color-200: lighten($secondary-color, 30%) !default;
 $secondary-color-100: lighten($secondary-color, 40%) !default;
 
 $secondary-color-dark: $secondary-color-900 !default;
@@ -42,13 +42,13 @@ $dark-color: #303742 !default;
 $light-color: #fff !default;
 
 // Gray colors
-$gray-color: hsl(0, 0, 45%);
+$gray-color: hsl(0, 0, 45%) !default;
 
 $gray-color-700: #3D424E !default;
 $gray-color-800: darken($gray-color-700, 5%) !default;
 $gray-color-900: darken($gray-color-800, 10%) !default;
 $gray-color-600: lighten($gray-color-700, 5%) !default;
-$gray-color-500: hsl(0, 0, 45%) ;
+$gray-color-500: hsl(0, 0, 45%)  !default;
 $gray-color-400: hsla(0, 0%, 60%, 0.9) !default;
 $gray-color-200: hsla(0, 0, 96%, 0.9) !default;
 $gray-color-300: darken($gray-color-200, 10%) !default;
