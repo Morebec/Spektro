@@ -23,7 +23,7 @@
   }
   &:focus,
   &:hover {
-    background: lighten($primary-color-light, 30%);
+    background: $primary-color-light;
     border-color: $primary-color-dark;
     text-decoration: none;
   }

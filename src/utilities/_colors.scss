@@ -1,5 +1,16 @@
 // Text colors
+
+//Primary
 @include text-color-variant(".text-primary", $primary-color);
+@include text-color-variant(".text-primary-900", $primary-color-900);
+@include text-color-variant(".text-primary-800", $primary-color-800);
+@include text-color-variant(".text-primary-700", $primary-color-700);
+@include text-color-variant(".text-primary-600", $primary-color-600);
+@include text-color-variant(".text-primary-500", $primary-color-500);
+@include text-color-variant(".text-primary-400", $primary-color-400);
+@include text-color-variant(".text-primary-300", $primary-color-300);
+@include text-color-variant(".text-primary-200", $primary-color-200);
+@include text-color-variant(".text-primary-100", $primary-color-100);
 
 @include text-color-variant(".text-secondary", $secondary-color);
 
@@ -17,12 +28,40 @@
 
 // Background colors
 @include bg-color-variant(".bg-primary", $primary-color);
+@include bg-color-variant(".bg-primary-900", $primary-color-900);
+@include bg-color-variant(".bg-primary-800", $primary-color-800);
+@include bg-color-variant(".bg-primary-700", $primary-color-700);
+@include bg-color-variant(".bg-primary-600", $primary-color-600);
+@include bg-color-variant(".bg-primary-500", $primary-color-500);
+@include bg-color-variant(".bg-primary-400", $primary-color-400);
+@include bg-color-variant(".bg-primary-300", $primary-color-300);
+@include bg-color-variant(".bg-primary-200", $primary-color-200);
+@include bg-color-variant(".bg-primary-100", $primary-color-100);
 
 @include bg-color-variant(".bg-secondary", $secondary-color);
+@include bg-color-variant(".bg-secondary-900", $secondary-color-900);
+@include bg-color-variant(".bg-secondary-800", $secondary-color-800);
+@include bg-color-variant(".bg-secondary-700", $secondary-color-700);
+@include bg-color-variant(".bg-secondary-600", $secondary-color-600);
+@include bg-color-variant(".bg-secondary-500", $secondary-color-500);
+@include bg-color-variant(".bg-secondary-400", $secondary-color-400);
+@include bg-color-variant(".bg-secondary-300", $secondary-color-300);
+@include bg-color-variant(".bg-secondary-200", $secondary-color-200);
+@include bg-color-variant(".bg-secondary-100", $secondary-color-100);
+
+@include bg-color-variant(".bg-gray", $gray-color);
+@include bg-color-variant(".bg-gray-900", $gray-color-900);
+@include bg-color-variant(".bg-gray-800", $gray-color-800);
+@include bg-color-variant(".bg-gray-700", $gray-color-700);
+@include bg-color-variant(".bg-gray-600", $gray-color-600);
+@include bg-color-variant(".bg-gray-500", $gray-color-500);
+@include bg-color-variant(".bg-gray-400", $gray-color-400);
+@include bg-color-variant(".bg-gray-300", $gray-color-300);
+@include bg-color-variant(".bg-gray-200", $gray-color-200);
+@include bg-color-variant(".bg-gray-100", $gray-color-100);
 
 @include bg-color-variant(".bg-dark", $dark-color);
 
-@include bg-color-variant(".bg-gray", $bg-color);
 
 @include bg-color-variant(".bg-success", $success-color);
 
