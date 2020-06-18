@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: nowrap;
   list-style: none;
-  margin: $unit-1 0;
+  margin: $spectre-unit-1 0;
   width: 100%;
 
   .step-item {
@@ -35,12 +35,12 @@
         border-radius: 50%;
         content: "";
         display: block;
-        height: $unit-3;
+        height: $spectre-unit-3;
         left: 50%;
         position: absolute;
-        top: $unit-1;
+        top: $spectre-unit-1;
         transform: translateX(-50%);
-        width: $unit-3;
+        width: $spectre-unit-3;
         z-index: $zindex-0;
       }
     }

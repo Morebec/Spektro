@@ -168,7 +168,7 @@
 
   .docs-block {
     border-radius: $border-radius;
-    padding: $unit-2;
+    padding: $spectre-unit-2;
 
     &.bg-gray {
       background: $bg-color-dark;
@@ -444,7 +444,7 @@
 
     u {
       border-bottom: $border-width-lg solid currentColor;
-      padding-bottom: $unit-o;
+      padding-bottom: $spectre-unit-o;
       text-decoration: none;
     }
   }
@@ -579,7 +579,7 @@
     padding: 0 .5rem;
 
     .docs-block {
-      padding: $unit-2 $unit-h;
+      padding: $spectre-unit-2 $spectre-unit-h;
     }
   }
 }

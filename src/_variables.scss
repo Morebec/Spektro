@@ -91,20 +91,42 @@ $cjk-ko-font-family: $base-font-family, "Malgun Gothic", $fallback-font-family !
 $body-font-family: $base-font-family, $fallback-font-family !default;
 
 // Unit sizes
-$unit-o: .05rem !default;
-$unit-h: .1rem !default;
-$unit-1: .2rem !default;
-$unit-2: .4rem !default;
-$unit-3: .6rem !default;
-$unit-4: .8rem !default;
-$unit-5: 1rem !default;
-$unit-6: 1.2rem !default;
-$unit-7: 1.4rem !default;
-$unit-8: 1.6rem !default;
-$unit-9: 1.8rem !default;
-$unit-10: 2rem !default;
-$unit-12: 2.4rem !default;
-$unit-16: 3.2rem !default;
+$base-unit: 1rem !default;
+$unit-q: $base-unit * 0.25 !default;
+$unit-h: $base-unit * 0.5 !default;
+$unit-3q: $base-unit * 0.75 !default;
+$unit-1: $base-unit !default;
+$unit-2: $base-unit * 1.5 !default;
+$unit-3: $base-unit * 2 !default;
+$unit-4: $base-unit * 3 !default;
+$unit-5: $base-unit * 4 !default;
+$unit-6: $base-unit * 6 !default;
+$unit-7: $base-unit * 8 !default;
+$unit-8: $base-unit * 12 !default;
+$unit-9: $base-unit * 16 !default;
+$unit-10: $base-unit * 24 !default;
+$unit-11: $base-unit * 32 !default;
+$unit-12: $base-unit * 40 !default;
+$unit-13: $base-unit * 48 !default;
+$unit-14: $base-unit * 64 !default;
+$unit-15: $base-unit * 80 !default;
+$unit-16: $base-unit * 92 !default;
+
+// Spectre unite sizes
+$spectre-unit-o: .05rem !default;
+$spectre-unit-h: .1rem !default;
+$spectre-unit-1: $unit-q !default;
+$spectre-unit-2: $unit-h !default;
+$spectre-unit-3: $unit-h !default;
+$spectre-unit-4: .8rem !default;
+$spectre-unit-5: $unit-1 !default;
+$spectre-unit-6: 1.2rem !default;
+$spectre-unit-7: 1.4rem !default;
+$spectre-unit-8: 1.6rem !default;
+$spectre-unit-9: 1.8rem !default;
+$spectre-unit-10: $unit-3 !default;
+$spectre-unit-12: 2.4rem !default;
+$spectre-unit-16: 3.2rem !default;
 
 // Font sizes
 $html-font-size: 20px !default;
@@ -114,20 +136,33 @@ $font-size-sm: .7rem !default;
 $font-size-lg: .9rem !default;
 $line-height: 1.2rem !default;
 
+$base-font-size: 16px !default;
+$font-size1: 12px !default;
+$font-size2: 14px !default;
+$font-size3: $base-font-size !default;
+$font-size4: 18px !default;
+$font-size5: 20px !default;
+$font-size6: 24px !default;
+$font-size7: 30px !default;
+$font-size8: 36px !default;
+
+
 // Sizes
-$layout-spacing: $unit-2 !default;
-$layout-spacing-sm: $unit-1 !default;
-$layout-spacing-lg: $unit-4 !default;
-$border-radius: $unit-h !default;
-$border-width: $unit-o !default;
-$border-width-lg: $unit-h !default;
+$layout-spacing: $spectre-unit-2 !default;
+$layout-spacing-sm: $spectre-unit-1 !default;
+$layout-spacing-lg: $spectre-unit-4 !default;
+$border-radius: $spectre-unit-h !default;
+$border-width: $spectre-unit-o !default;
+$border-width-lg: $spectre-unit-h !default;
+
 $btn-border-width: $border-width !default;
-$control-size: $unit-9 !default;
-$control-size-sm: $unit-7 !default;
-$control-size-lg: $unit-10 !default;
-$control-padding-x: $unit-2 !default;
-$control-padding-x-sm: $unit-2 * .75 !default;
-$control-padding-x-lg: $unit-2 * 1.5 !default;
+
+$control-size: $spectre-unit-9 !default;
+$control-size-sm: $spectre-unit-7 !default;
+$control-size-lg: $spectre-unit-10 !default;
+$control-padding-x: $spectre-unit-2 !default;
+$control-padding-x-sm: $spectre-unit-2 * .75 !default;
+$control-padding-x-lg: $spectre-unit-2 * 1.5 !default;
 $control-padding-y: ($control-size - $line-height) / 2 - $border-width !default;
 $control-padding-y-sm: ($control-size-sm - $line-height) / 2 - $border-width !default;
 $control-padding-y-lg: ($control-size-lg - $line-height) / 2 - $border-width !default;

@@ -30,7 +30,7 @@
     z-index: 1;
 
     .comparison-label {
-      right: $unit-4;
+      right: $spectre-unit-4;
     }
   }
 
@@ -46,7 +46,7 @@
       height: 100%;
       left: 0;
       position: absolute;
-      right: $unit-4;
+      right: $spectre-unit-4;
       top: 0;
       z-index: $zindex-0;
     }
@@ -59,24 +59,24 @@
       content: "";
       height: 3px;
       position: absolute;
-      right: $unit-2;
+      right: $spectre-unit-2;
       top: 50%;
       transform: translate(50%, -50%);
       width: 3px;
     }
 
     .comparison-label {
-      left: $unit-4;
+      left: $spectre-unit-4;
     }
   }
 
   .comparison-resizer {
     animation: first-run 1.5s 1 ease-in-out;
     cursor: ew-resize;
-    height: $unit-4;
+    height: $spectre-unit-4;
     left: 0;
     max-width: 100%;
-    min-width: $unit-4;
+    min-width: $spectre-unit-4;
     opacity: 0;
     outline: none;
     position: relative;
@@ -88,9 +88,9 @@
 
   .comparison-label {
     background: rgba($dark-color, .5);
-    bottom: $unit-4;
+    bottom: $spectre-unit-4;
     color: $light-color;
-    padding: $unit-1 $unit-2;
+    padding: $unit-q $spectre-unit-2;
     position: absolute;
     user-select: none;
   }
@@ -101,13 +101,13 @@
     width: 0;
   }
   25% {
-    width: $unit-12;
+    width: $spectre-unit-12;
   }
   50% {
-    width: $unit-4;
+    width: $spectre-unit-4;
   }
   75% {
-    width: $unit-6;
+    width: $spectre-unit-6;
   }
   100% {
     width: 0;

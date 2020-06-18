@@ -5,7 +5,7 @@
   background: transparent;
   display: block;
   width: 100%;
-  height: $unit-6;
+  height: $spectre-unit-6;
 
   &:focus {
     @include control-shadow();
@@ -24,26 +24,26 @@
     background: $primary-color;
     border: 0;
     border-radius: 50%;
-    height: $unit-3;
-    margin-top: -($unit-3 - $unit-h) / 2;
+    height: $spectre-unit-3;
+    margin-top: -($spectre-unit-3 - $spectre-unit-h) / 2;
     transition: transform .2s;
-    width: $unit-3;
+    width: $spectre-unit-3;
   }
   &::-moz-range-thumb {
     background: $primary-color;
     border: 0;
     border-radius: 50%;
-    height: $unit-3;
+    height: $spectre-unit-3;
     transition: transform .2s;
-    width: $unit-3;
+    width: $spectre-unit-3;
   }
   &::-ms-thumb {
     background: $primary-color;
     border: 0;
     border-radius: 50%;
-    height: $unit-3;
+    height: $spectre-unit-3;
     transition: transform .2s;
-    width: $unit-3;
+    width: $spectre-unit-3;
   }
 
   &:active {
@@ -78,19 +78,19 @@
   &::-webkit-slider-runnable-track {
     background: $bg-color-dark;
     border-radius: $border-radius;
-    height: $unit-h;
+    height: $spectre-unit-h;
     width: 100%;
   }
   &::-moz-range-track {
     background: $bg-color-dark;
     border-radius: $border-radius;
-    height: $unit-h;
+    height: $spectre-unit-h;
     width: 100%;
   }
   &::-ms-track {
     background: $bg-color-dark;
     border-radius: $border-radius;
-    height: $unit-h;
+    height: $spectre-unit-h;
     width: 100%;
   }
   &::-ms-fill-lower {

@@ -7,8 +7,8 @@
     display: flex;
     flex-wrap: wrap;
     height: auto;
-    min-height: $unit-8;
-    padding: $unit-h;
+    min-height: $spectre-unit-8;
+    padding: $spectre-unit-h;
 
     &.is-focused {
       @include control-shadow();
@@ -20,9 +20,9 @@
       box-shadow: none;
       display: inline-block;
       flex: 1 0 auto;
-      height: $unit-6;
-      line-height: $unit-4;
-      margin: $unit-h;
+      height: $spectre-unit-6;
+      line-height: $spectre-unit-4;
+      margin: $spectre-unit-h;
       width: auto;
     }
   }
