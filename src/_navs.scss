@@ -3,12 +3,12 @@
   display: flex;
   flex-direction: column;
   list-style: none;
-  margin: $unit-1 0;
+  margin: $spectre-unit-1 0;
 
   .nav-item {
     a {
       color: $gray-color-dark;
-      padding: $unit-1 $unit-2;
+      padding: $spectre-unit-1 $spectre-unit-2;
       text-decoration: none;
       &:focus,
       &:hover {
@@ -28,7 +28,7 @@
   }
 
   & .nav {
-    margin-bottom: $unit-2;
-    margin-left: $unit-4;
+    margin-bottom: $spectre-unit-2;
+    margin-left: $spectre-unit-4;
   }
 }

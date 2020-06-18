@@ -96,7 +96,7 @@ textarea.form-input {
 .form-input-hint {
   color: $gray-color;
   font-size: $font-size-sm;
-  margin-top: $unit-1;
+  margin-top: $unit-q;
 
   .has-success &,
   .is-success + & {
@@ -122,7 +122,7 @@ textarea.form-input {
   padding: $control-padding-y $control-padding-x;
   vertical-align: middle;
   width: 100%;
-  background: $bg-color-light; 
+  background: $bg-color-light;
   &:focus {
     @include control-shadow();
     border-color: $primary-color;
@@ -151,7 +151,7 @@ textarea.form-input {
     padding: $control-padding-y $control-padding-x;
 
     option {
-      padding: $unit-h $unit-1;
+      padding: $spectre-unit-h $unit-q;
     }
   }
   &:not([multiple]):not([size]) {
@@ -324,27 +324,27 @@ textarea.form-input {
 
 // Form element: Switch
 .form-switch {
-  padding-left: ($unit-8 + $control-padding-x);
+  padding-left: ($spectre-unit-8 + $control-padding-x);
 
   .form-icon {
     background: $gray-color;
     background-clip: padding-box;
-    border-radius: $unit-2 + $border-width;
-    height: $unit-4 + $border-width * 2;
+    border-radius: $spectre-unit-2 + $border-width;
+    height: $spectre-unit-4 + $border-width * 2;
     left: 0;
-    top: ($control-size-sm - $unit-4) / 2 - $border-width;
-    width: $unit-8;
+    top: ($control-size-sm - $spectre-unit-4) / 2 - $border-width;
+    width: $spectre-unit-8;
     &::before {
       background: $bg-color-light;
       border-radius: 50%;
       content: "";
       display: block;
-      height: $unit-4;
+      height: $spectre-unit-4;
       left: 0;
       position: absolute;
       top: 0;
       transition: background .2s, border .2s, box-shadow .2s, color .2s, left .2s;
-      width: $unit-4;
+      width: $spectre-unit-4;
     }
   }
 
