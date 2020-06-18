@@ -2,7 +2,7 @@
 .btn {
   appearance: none;
   background: $bg-color-light;
-  border: $border-width solid $primary-color;
+  border: $btn-border-width solid $primary-color;
   border-radius: $border-radius;
   color: $primary-color;
   cursor: pointer;
@@ -153,12 +153,12 @@
     }
     &:not(:first-child):not(:last-child) {
       border-radius: 0;
-      margin-left: -$border-width;
+      margin-left: -$btn-border-width;
     }
     &:last-child:not(:first-child) {
       border-bottom-left-radius: 0;
       border-top-left-radius: 0;
-      margin-left: -$border-width;
+      margin-left: -$btn-border-width;
     }
     &:focus,
     &:hover,
