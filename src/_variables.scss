@@ -91,26 +91,26 @@ $cjk-ko-font-family: $base-font-family, "Malgun Gothic", $fallback-font-family !
 $body-font-family: $base-font-family, $fallback-font-family !default;
 
 // Unit sizes
-$base-unit: 1rem;
-$unit-q: $base-unit * 0.25;
-$unit-h: $base-unit * 0.5;
-$unit-3q: $base-unit * 0.75;
-$unit-1: $base-unit;
-$unit-2: $base-unit * 1.5;
-$unit-3: $base-unit * 2;
-$unit-4: $base-unit * 3;
-$unit-5: $base-unit * 4;
-$unit-6: $base-unit * 6;
-$unit-7: $base-unit * 8;
-$unit-8: $base-unit * 12;
-$unit-9: $base-unit * 16;
-$unit-10: $base-unit * 24;
-$unit-11: $base-unit * 32;
-$unit-12: $base-unit * 40;
-$unit-13: $base-unit * 48;
-$unit-14: $base-unit * 64;
-$unit-15: $base-unit * 80;
-$unit-16: $base-unit * 92;
+$base-unit: 1rem !default;
+$unit-q: $base-unit * 0.25 !default;
+$unit-h: $base-unit * 0.5 !default;
+$unit-3q: $base-unit * 0.75 !default;
+$unit-1: $base-unit !default;
+$unit-2: $base-unit * 1.5 !default;
+$unit-3: $base-unit * 2 !default;
+$unit-4: $base-unit * 3 !default;
+$unit-5: $base-unit * 4 !default;
+$unit-6: $base-unit * 6 !default;
+$unit-7: $base-unit * 8 !default;
+$unit-8: $base-unit * 12 !default;
+$unit-9: $base-unit * 16 !default;
+$unit-10: $base-unit * 24 !default;
+$unit-11: $base-unit * 32 !default;
+$unit-12: $base-unit * 40 !default;
+$unit-13: $base-unit * 48 !default;
+$unit-14: $base-unit * 64 !default;
+$unit-15: $base-unit * 80 !default;
+$unit-16: $base-unit * 92 !default;
 
 // Spectre unite sizes
 $spectre-unit-o: .05rem !default;
